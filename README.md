@@ -38,6 +38,7 @@
 3. **Configure environment variables**:
    -**Create a .env file in the root directory**
    -**Add necessary keys (e.g., database URI, JWT secret, API keys)**
+4.**Start the development server**:
 
 
 
