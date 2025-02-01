@@ -33,12 +33,22 @@
 | **Hosting**   | Vercel / AWS / DigitalOcean |
 | **Security**  | bcrypt, CORS |
 ## 🚀 Installation 
-1. **Clone the repository**:
+1. **Clone the repository**:  
+Use the following **Git** command to clone the repository and navigate into the project directory:  
+
+```bash
+git clone https://github.com/Nishmaa93/Web_Security.git
+cd Web_Security
+```
 2. **Install dependencies**:
-3. **Configure environment variables**:
+```bash
+npm install
+```
+
+4. **Configure environment variables**:
    -Create a .env file in the root directory
    -Add necessary keys (e.g., database URI, JWT secret, API keys
-4. **Start the development server**:
+5. **Start the development server**:
 ### 📜 License
 This project is open-source and licensed under the MIT License.
 ### 🙌 Contributions
@@ -50,55 +60,5 @@ For queries, collaborations, or support, reach out via:
 
 
 
-
-## 🚀 Installation  
-
-Follow these steps to set up the project locally:
-
-### 🔹 1. Clone the Repository (Git)  
-Use the following **Git** command to clone the repository and navigate into the project directory:  
-
-```bash
-git clone https://github.com/Nishmaa93/Web_Security.git
-cd Web_Security
-🔹 2. Install Dependencies (Bash)
-Run the following command in Bash or your terminal to install required dependencies:
-
-bash
-Copy
-Edit
-npm install
-🔹 3. Configure Environment Variables
-To configure the necessary environment variables:
-
-Create a .env file in the root directory.
-Add the required keys, such as:
-plaintext
-Copy
-Edit
-DATABASE_URI=your_database_url
-JWT_SECRET=your_secret_key
-API_KEY=your_api_key
-🔹 4. Start the Development Server (Bash)
-Run the following command to start the server:
-
-bash
-Copy
-Edit
-npm run dev
-📜 License
-This project is open-source and licensed under the MIT License.
-
-🙌 Contributions
-We welcome contributions! Feel free to:
-
-Open issues for bugs and feature requests.
-Submit pull requests with new features or improvements.
-Share feedback to help improve the project.
-📧 Contact
-For queries, collaborations, or support, reach out via:
-
-📩 Email: nishmadahal01234@gmail.com
-🌐 Website: www.codecompass.com
 
 
