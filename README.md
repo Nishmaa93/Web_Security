@@ -45,9 +45,13 @@ cd Web_Security
 npm install
 ```
 
-4. **Configure environment variables**:
-   -Create a .env file in the root directory
-   -Add necessary keys (e.g., database URI, JWT secret, API keys
+3. **Configure environment variables**:
+-Create a .env file in the root directory
+-Add necessary keys such as
+-DATABASE_URI=your_database_url
+-JWT_SECRET=your_secret_key
+-API_KEY=your_api_key
+
 5. **Start the development server**:
 ### 📜 License
 This project is open-source and licensed under the MIT License.
