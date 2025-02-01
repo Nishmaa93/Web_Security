@@ -2,6 +2,7 @@
 *A Secure Blogging Platform*
 ## 🌟 Introduction 
 **Code & Compass** is a fully secure blog website that allows users to create, read, and manage blog posts. It features a user-friendly interface and role-based access control for both users and administrators. The platform ensures a safe and engaging environment for sharing knowledge and discussions.
+##You could see my name as Nishma Dahal in many places of this website. Please change it according to your needs.
 ## 🔒 Security & Role Management 
 - **User Roles**:  
   - 👤 **User**: Can create, edit, and interact with blog posts.  
@@ -53,8 +54,6 @@ npm install
    DATABASE_URI=your_database_url
    JWT_SECRET=your_secret_key
    API_KEY=your_api_key
-
-
 4. **Start the development server**:
 ```bash
 npm run dev
