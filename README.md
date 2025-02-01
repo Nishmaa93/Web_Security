@@ -46,11 +46,11 @@ npm install
 ```
 
 3. **Configure environment variables**:
--Create a .env file in the root directory
--Add necessary keys such as
--DATABASE_URI=your_database_url
--JWT_SECRET=your_secret_key
--API_KEY=your_api_key
+Create a .env file in the root directory
+Add necessary keys such as:
+DATABASE_URI=your_database_url
+JWT_SECRET=your_secret_key
+API_KEY=your_api_key
 
 5. **Start the development server**:
 ### 📜 License
