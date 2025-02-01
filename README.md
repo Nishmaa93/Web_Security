@@ -2,6 +2,7 @@
 *A Secure Blogging Platform*
 ## 🌟 Introduction 
 **Code & Compass** is a fully secure blog website that allows users to create, read, and manage blog posts. It features a user-friendly interface and role-based access control for both users and administrators. The platform ensures a safe and engaging environment for sharing knowledge and discussions.
+## 🔒 Security & Role Management 
 ## 🔒 Features 
 - ✅ **User Roles**: Admin & User
 - ✅ **Blog Management**: Create, edit, and delete blog posts
