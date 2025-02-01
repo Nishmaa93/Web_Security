@@ -19,6 +19,10 @@
 ✅ Commenting & discussion system  
 ✅ Like & share functionality  
 ✅ Personalized dashboard 
+### 🛠️ Admin Features  
+✅ User & role management  
+✅ Content moderation  
+✅ Analytics & reports 
 
 ## 🚀 Installation 
 1. Clone the repository:
