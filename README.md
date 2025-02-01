@@ -36,8 +36,8 @@
 1. **Clone the repository**:
 2. **Install dependencies**:
 3. **Configure environment variables**:
-   -Create a .env file in the root directory
-   -Add necessary keys (e.g., database URI, JWT secret, API keys)
+   -*Create a .env file in the root directory*
+   -*Add necessary keys (e.g., database URI, JWT secret, API keys)*
 
 
 
