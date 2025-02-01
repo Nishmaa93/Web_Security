@@ -9,3 +9,4 @@
 - ✅ **Interactive UI**: Responsive design with an intuitive dashboard 
 ## 🚀 Installation 
 1. Clone the repository:
+```bash
