@@ -43,7 +43,9 @@
 This project is open-source and licensed under the MIT License.
 ### 🙌 Contributions
 We welcome contributions! Feel free to open issues, submit pull requests, or suggest features.
-
-
+### 📧 Contact
+For queries, collaborations, or support, reach out via:
+📩 Email: your-email@example.com
+🌐 Website: www.codecompass.com
 
 
