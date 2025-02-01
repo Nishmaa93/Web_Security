@@ -52,7 +52,11 @@ DATABASE_URI=your_database_url
 JWT_SECRET=your_secret_key
 API_KEY=your_api_key
 
-5. **Start the development server**:
+4. **Start the development server**:
+```bash
+npm run dev
+```
+
 ### 📜 License
 This project is open-source and licensed under the MIT License.
 ### 🙌 Contributions
