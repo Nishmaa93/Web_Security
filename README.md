@@ -1,4 +1,4 @@
 # Code & Compass 🧭💻
 *A Secure Blogging Platform*
 ## 🌟 Introduction 
-**Code & Compass**
+**Code & Compass** is a fully secure blog website
