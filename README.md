@@ -1,1 +1,1 @@
-The name of the website is Code
+The name of the website is Code & Compass.
