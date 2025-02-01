@@ -65,8 +65,7 @@ We welcome contributions! Feel free to open issues, submit pull requests, or sug
 ### 📧 Contact  
 For queries, collaborations, or support, reach out via:  
 
-- 📩 **Email**: [nishmadahal01234@gmail.com](mailto:nishmadahal01234@gmail.com)  
-- 🌐 **Website**: [www.codecompass.com](https://www.codecompass.com)  
+- 📩 **Email**: [nishmadahal01234@gmail.com](mailto:nishmadahal01234@gmail.com)   
 
 
 
