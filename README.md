@@ -41,6 +41,8 @@
 4. **Start the development server**:
 ### 📜 License
 This project is open-source and licensed under the MIT License.
+### 🙌 Contributions
+We welcome contributions! Feel free to open issues, submit pull requests, or suggest features.
 
 
 
