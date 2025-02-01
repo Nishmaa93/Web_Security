@@ -6,3 +6,4 @@
 - ✅ **User Roles**: Admin & User
 - ✅ **Blog Management**: Create, edit, and delete blog posts
 - ✅ **Security**: Protected authentication and secure data handling
+- ✅ **Interactive UI**: Responsive design with an intuitive dashboard 
