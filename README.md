@@ -14,7 +14,11 @@
 ### 📖 Blog Management  
 ✅ Create, edit, and delete blog posts    
 ✅ Image & media uploads  
-
+### 🔥 User Experience  
+✅ Modern UI with responsive design  
+✅ Commenting & discussion system  
+✅ Like & share functionality  
+✅ Personalized dashboard 
 
 ## 🚀 Installation 
 1. Clone the repository:
