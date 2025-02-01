@@ -10,11 +10,12 @@
   - 🔐 Encrypted passwords & authentication system  
   - 🚫 Protection against SQL Injection & XSS attacks  
   - ✅ Role-based access control (RBAC)
-## 🔒 Features 
-- ✅ **User Roles**: Admin & User
-- ✅ **Blog Management**: Create, edit, and delete blog posts
-- ✅ **Security**: Protected authentication and secure data handling
-- ✅ **Interactive UI**: Responsive design with an intuitive dashboard 
+## ✨ Features  
+### 📖 Blog Management  
+✅ Create, edit, and delete blog posts    
+✅ Image & media uploads  
+
+
 ## 🚀 Installation 
 1. Clone the repository:
 ```bash
