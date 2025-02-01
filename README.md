@@ -8,3 +8,4 @@
 - ✅ **Security**: Protected authentication and secure data handling
 - ✅ **Interactive UI**: Responsive design with an intuitive dashboard 
 ## 🚀 Installation 
+1. Clone the repository:
