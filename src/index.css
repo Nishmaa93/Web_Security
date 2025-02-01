@@ -1,0 +1,441 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-purple-50 via-white to-pink-50 min-h-screen;
+  }
+}
+
+/* Quill Editor Styles */
+.ql-container {
+  @apply font-sans text-base;
+  height: calc(400px - 42px) !important;
+}
+
+.ql-editor {
+  @apply h-full prose max-w-none overflow-y-auto;
+}
+
+.ql-toolbar {
+  @apply border-b border-gray-200 bg-gray-50;
+  z-index: 10;
+  z-index: 10;
+}
+
+.ql-toolbar button {
+  @apply hover:bg-gray-100 rounded;
+}
+
+.ql-toolbar .ql-active {
+  @apply bg-gray-100;
+}
+
+.ql-formats {
+  @apply mr-4;
+}
+
+.ql-snow.ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+  @apply text-purple-600;
+}
+
+.ql-snow.ql-toolbar button:hover .ql-stroke,
+.ql-snow .ql-toolbar button:hover .ql-stroke,
+.ql-snow.ql-toolbar button:focus .ql-stroke,
+.ql-snow .ql-toolbar button:focus .ql-stroke,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke {
+  @apply stroke-purple-600;
+}
+
+.ql-snow.ql-toolbar button:hover .ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill {
+  @apply fill-purple-600;
+}
+
+/* Quill Content Styles */
+.ql-editor h1 {
+  @apply text-4xl font-bold mb-6;
+}
+
+.ql-editor h2 {
+  @apply text-3xl font-bold mb-5;
+}
+
+.ql-editor h3 {
+  @apply text-2xl font-bold mb-4;
+}
+
+.ql-editor p {
+  @apply mb-4;
+}
+
+.ql-editor blockquote {
+  @apply border-l-4 border-purple-600 pl-4 italic my-6;
+}
+
+.ql-editor img {
+  @apply rounded-lg max-w-full h-auto my-6;
+}
+
+/* Quill Editor Typography */
+.ql-editor h1 {
+  @apply text-4xl font-bold mb-6;
+}
+
+.ql-editor h2 {
+  @apply text-3xl font-bold mb-5;
+}
+
+.ql-editor h3 {
+  @apply text-2xl font-bold mb-4;
+}
+
+.ql-editor p {
+  @apply mb-4 text-base leading-relaxed;
+}
+
+.ql-editor ul {
+  @apply list-disc pl-6 mb-4;
+}
+
+.ql-editor ol {
+  @apply list-decimal pl-6 mb-4;
+}
+
+.ql-editor blockquote {
+  @apply border-l-4 border-purple-600 pl-4 italic my-6;
+}
+
+.ql-editor pre {
+  @apply bg-gray-900 text-white p-4 rounded-lg overflow-x-auto my-4;
+}
+
+.ql-editor code {
+  @apply bg-gray-100 px-1.5 py-0.5 rounded text-sm;
+}
+
+.ql-editor a {
+  @apply text-purple-600 hover:text-purple-700 underline;
+}
+
+.ql-editor pre {
+  @apply bg-gray-900 text-white p-4 rounded-lg overflow-x-auto my-4;
+}
+
+.ql-editor code {
+  @apply bg-gray-100 px-1.5 py-0.5 rounded text-sm;
+}
+
+.ql-editor ul {
+  @apply list-disc pl-6 mb-4;
+}
+
+.ql-editor ol {
+  @apply list-decimal pl-6 mb-4;
+}
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl 
+    hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 
+    transition-all duration-200 shadow-lg hover:shadow-xl 
+    focus:ring-4 focus:ring-purple-500 focus:ring-opacity-50;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-purple-600 border-2 border-purple-600 rounded-xl
+    hover:bg-purple-50 transform hover:scale-105 
+    transition-all duration-200 shadow-md hover:shadow-lg
+    focus:ring-4 focus:ring-purple-500 focus:ring-opacity-50;
+  }
+
+  /* Prose styles for editor content */
+  .prose {
+    @apply max-w-none;
+  }
+  
+  .prose p {
+    @apply mb-4;
+  }
+  
+  .prose h1 {
+    @apply text-4xl font-bold mb-6;
+  }
+  
+  .prose h2 {
+    @apply text-3xl font-bold mb-5;
+  }
+  
+  .prose h3 {
+    @apply text-2xl font-bold mb-4;
+  }
+  
+  .prose [style*="font-size"] {
+    @apply leading-relaxed;
+  }
+
+  .prose img {
+    @apply rounded-lg mx-auto my-6 max-w-full h-auto;
+  }
+
+  .prose table {
+    @apply w-full border-collapse my-4;
+  }
+
+  .prose th {
+    @apply bg-gray-50 font-semibold p-2 border border-gray-200;
+  }
+
+  .prose td {
+    @apply p-2 border border-gray-200;
+  }
+
+  .prose pre {
+    @apply bg-gray-900 text-white p-4 rounded-lg overflow-x-auto my-4;
+  }
+
+  .prose code {
+    @apply bg-gray-100 px-1.5 py-0.5 rounded text-sm;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0 text-inherit;
+  }
+
+  .prose mark {
+    @apply bg-yellow-200 px-1;
+  }
+
+  .prose table {
+    @apply w-full border-collapse my-4;
+  }
+
+  .prose th {
+    @apply bg-gray-50 font-semibold p-2 border border-gray-200;
+  }
+
+  .prose td {
+    @apply p-2 border border-gray-200;
+  }
+
+  .prose pre {
+    @apply bg-gray-900 text-white p-4 rounded-lg overflow-x-auto my-4;
+  }
+
+  .prose code {
+    @apply bg-gray-100 px-1.5 py-0.5 rounded text-sm;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0 text-inherit;
+  }
+
+  .prose mark {
+    @apply bg-yellow-200 px-1;
+  }
+
+  /* Task List Styles */
+  .prose ul[data-type="taskList"] {
+    @apply list-none p-0;
+  }
+
+  .prose ul[data-type="taskList"] li {
+    @apply flex items-start gap-2;
+  }
+
+  .prose ul[data-type="taskList"] input[type="checkbox"] {
+    @apply mt-1;
+  }
+
+  /* Code Block Styles */
+  .prose pre {
+    @apply bg-gray-900 text-white p-4 rounded-lg overflow-x-auto my-4;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0 text-inherit;
+  }
+
+  /* YouTube Embed Styles */
+  .prose .youtube-wrapper {
+    @apply relative w-full pt-[56.25%] my-6;
+  }
+
+  .prose .youtube-wrapper iframe {
+    @apply absolute top-0 left-0 w-full h-full rounded-lg;
+  }
+
+  /* Character Count */
+  .character-count {
+    @apply text-sm text-gray-500 mt-2;
+  }
+
+  /* Typography Extensions */
+  .prose .typography-quotes {
+    @apply text-gray-600 italic;
+  }
+
+  .prose .typography-ellipsis {
+    @apply text-gray-600;
+  }
+  
+  /* Social Media Embeds */
+  .prose .social-embed {
+    @apply my-6 mx-auto rounded-lg shadow-lg overflow-hidden;
+  }
+  
+  .prose .mention {
+    @apply text-purple-600 font-medium hover:text-purple-700 cursor-pointer;
+  }
+  
+  .prose .hashtag {
+    @apply text-blue-600 font-medium hover:text-blue-700 cursor-pointer;
+  }
+  
+  /* Task List Styles */
+  .prose ul[data-type="taskList"] {
+    @apply list-none p-0;
+  }
+
+  .prose ul[data-type="taskList"] li {
+    @apply flex items-start gap-2;
+  }
+
+  .prose ul[data-type="taskList"] input[type="checkbox"] {
+    @apply mt-1;
+  }
+
+  /* Character Count */
+  .character-count {
+    @apply text-sm text-gray-500 mt-2;
+  }
+
+  /* Typography Extensions */
+  .prose .typography-quotes {
+    @apply text-gray-600 italic;
+  }
+
+  .prose .typography-ellipsis {
+    @apply text-gray-600;
+  }
+  
+  /* Hashtag styles */
+  .prose .hashtag {
+    @apply text-blue-600 font-medium hover:text-blue-700 cursor-pointer;
+  }
+  
+  /* Font Family */
+  .prose [style*="font-family"] {
+    @apply leading-relaxed;
+  }
+  
+  /* Horizontal Rule */
+  .prose hr {
+    @apply my-8 border-t-2 border-gray-200;
+  }
+  
+  /* Emoji styles */
+  .prose .emoji {
+    @apply inline-block align-middle;
+    height: 1.2em;
+    width: 1.2em;
+  }
+  
+  /* Math Equations */
+  .prose .math-block {
+    @apply my-4 p-4 bg-gray-50 rounded-lg overflow-x-auto;
+  }
+  
+  /* Table of Contents */
+  .prose .table-of-contents {
+    @apply my-6 p-4 bg-gray-50 rounded-lg;
+  }
+  
+  .prose .table-of-contents ul {
+    @apply list-none p-0;
+  }
+  
+  .prose .table-of-contents li {
+    @apply my-2;
+  }
+  
+  .prose .table-of-contents a {
+    @apply text-purple-600 hover:text-purple-700 no-underline;
+  }
+  
+  /* Horizontal Rule */
+  .prose hr {
+    @apply my-8 border-t-2 border-gray-200;
+  }
+  
+  /* Code Block Languages */
+  .prose pre[class*="language-"] {
+    @apply relative;
+  }
+  
+  .prose pre[class*="language-"]::before {
+    @apply absolute top-0 right-0 px-3 py-1 text-xs font-mono text-gray-500 bg-gray-800 rounded-bl;
+    content: attr(data-language);
+  }
+  
+  .prose blockquote {
+    @apply border-l-4 border-purple-600 pl-4 italic my-6;
+  }
+  
+  .prose ul {
+    @apply list-disc pl-6 mb-4;
+  }
+  
+  .prose ol {
+    @apply list-decimal pl-6 mb-4;
+  }
+  
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .prose {
+      @apply text-sm;
+    }
+    
+    .prose img {
+      @apply my-4;
+    }
+    
+    .prose blockquote {
+      @apply my-4;
+    }
+  }
+}
