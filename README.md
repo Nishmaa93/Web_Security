@@ -37,8 +37,31 @@
 ```bash
 git clone https://github.com/Nishmaa93/Web_Security.git
 cd Web_Security
+✅ Corrected Markdown
+md
+Copy
+Edit
+## 🚀 Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Nishmaa93/Web_Security.git
+   cd Web_Security
+Install dependencies:
 
+bash
+Copy
+Edit
+npm install
+Configure environment variables:
 
+Create a .env file in the root directory
+Add necessary keys (e.g., database URI, JWT secret, API keys)
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
 
 
 
