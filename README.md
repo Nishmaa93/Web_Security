@@ -1,2 +1,2 @@
 The name of the website is Code & Compass.
-Here,
+Here, user can
