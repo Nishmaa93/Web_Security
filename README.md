@@ -23,7 +23,15 @@
 ✅ User & role management  
 ✅ Content moderation  
 ✅ Analytics & reports 
-
+## 🏗️ Tech Stack  
+| Component   | Technology Used |
+|-------------|----------------|
+| **Frontend**  | React, Next.js, Tailwind CSS |
+| **Backend**   | Node.js, Express.js |
+| **Database**  | MongoDB |
+| **Authentication** | JWT, OAuth |
+| **Hosting**   | Vercel / AWS / DigitalOcean |
+| **Security**  | bcrypt, CORS |
 ## 🚀 Installation 
 1. Clone the repository:
 ```bash
