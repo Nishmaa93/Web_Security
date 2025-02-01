@@ -6,7 +6,7 @@
 ## 🔒 Security & Role Management 
 - **User Roles**:  
   - 👤 **User**: Can create, edit, and interact with blog posts.  
-  - 🔧 **Admin**: Manages users, content, and platform settings.
+  - 🔧 **Admin**: Manages users, content, and platform settings. 
 - **Security Features**:  
   - 🔐 Encrypted passwords & authentication system  
   - 🚫 Protection against SQL Injection & XSS attacks  
